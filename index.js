@@ -46,7 +46,10 @@ module.exports = {
       "error",
       "after",
       {
-        overrides: { "?": "ignore", ":": "ignore" }
+        overrides: {
+          "?": "ignore",
+          ":": "ignore"
+        }
       }
     ]
   }

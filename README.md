@@ -9,6 +9,10 @@ Extends [eslint-config-airbnb](https://github.com/airbnb/javascript) and [eslint
 
 For more detail on the rules implemented, see the [config itself](/index.js).
 
+## Currently Supported Drupal Version
+
+8.7.x
+
 ## Installation
 
 ```cmd
