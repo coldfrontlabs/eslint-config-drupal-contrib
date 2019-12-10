@@ -4,9 +4,11 @@
   "description": "An ESLint configuration to match the Drupal standard for contrib modules and themes.",
   "main": "index.js",
   "scripts": {
-    "lint": "npx eslint --ext .js .",
-    "lint:fix": "npx eslint --ext .js . --fix",
-    "commit": "npx git cz"
+    "commit": "npx git cz",
+    "lint": "npx eslint --ext .js --ignore-path .gitignore .",
+    "fix": "npm run lint -- --fix",
+    "prerelease": "npm run lint",
+    "release": "npx standard-version"
   },
   "repository": {
     "type": "git",
@@ -26,48 +28,23 @@
   "homepage": "https://github.com/coldfrontlabs/eslint-config-drupal-contrib#readme",
   "dependencies": {
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-plugin-react": "^7.17.0"
   },
   "peerDependencies": {
-    "eslint": ">=6.0.0",
-    "prettier": ">=1.18.0"
+    "eslint": "^6.0.0",
+    "prettier": "^1.18.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2",
-    "eslint": "^6.4.0",
-    "husky": "^3.0.5",
-    "prettier": "^1.18.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "eslintConfig": {
-    "extends": [
-      "airbnb",
-      "plugin:prettier/recommended"
-    ],
-    "rules": {
-      "prettier/prettier": "error"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "echo committing as $(git config user.name) && npm run lint"
-    }
+    "eslint": "^6.7.2",
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "standard-version": "^7.1.0"
   }
 }
