@@ -1,9 +1,35 @@
 # Changelog
-All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [Unreleased]
+## [1.1.0](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/compare/v1.0.0...v1.1.0) (2019-12-10)
+
+
+### Features
+
+* **config:** support drupal 8.8.x ([52f1624](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/52f1624ba4b2b9c79f8c2f80d219a62db3155ec0))
+
+
+### Code Refactoring
+
+* **config:** remove root ([ee1ab43](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/ee1ab43a7d16948ee8206b74fe1ef1441a694965))
+
+
+### Documentation
+
+* **changelog:** use keepachangelog format ([#9](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/issues/9)) ([a8b3204](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/a8b32040c34dc6e7461d7e3a9f4402b5a6bdcbe0))
+* **general:** update git docs and info ([b1087de](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/b1087de568d059ee694bb91232bb9f51dd266915))
+* **readme:** add readme ([439861d](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/439861dcfe29d2317343c69753b536a00f1f09b1))
+* **readme:** add readme ([adc20a5](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/adc20a53a75d9a3ab21f93bcba097f901bd6fc4b))
+* **readme:** add supported drupal version ([673f858](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/673f8586f02d489054cbc18d519c1460476aabd2))
+
+
+### Build System
+
+* **npm:** add husky and git hooks ([1c6d2dd](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/1c6d2ddcd31e4309c6dd4f6b615979061d56a122))
+* **npm:** run audit and updates ([#10](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/issues/10)) ([6b7821b](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/6b7821b9818d0bb80e4787853e160d66841d0a8b))
+* **npm:** update dependencies ([58b9760](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/58b9760e1a3e7a059dcefa861b5020deaee99f18))
+* **npm:** update deps and config ([7d03d61](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/7d03d61bb20e5a6d7e3f913371ac68b748a21f69))
 
 ## [1.0.2] - 2019-09-20
 ### Changed
