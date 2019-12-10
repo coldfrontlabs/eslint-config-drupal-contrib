@@ -15,6 +15,8 @@ module.exports = {
     matchMedia: true,
     Backbone: true,
     Modernizr: true,
+    Popper: true,
+    Sortable: true,
     CKEDITOR: true
   },
   rules: {
