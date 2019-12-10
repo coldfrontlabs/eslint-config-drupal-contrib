@@ -45,12 +45,7 @@ module.exports = {
     "operator-linebreak": [
       "error",
       "after",
-      {
-        overrides: {
-          "?": "ignore",
-          ":": "ignore"
-        }
-      }
+      { overrides: { "?": "ignore", ":": "ignore" } }
     ]
   }
 };
