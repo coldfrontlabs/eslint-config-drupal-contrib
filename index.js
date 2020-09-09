@@ -3,7 +3,7 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    node: true
+    node: true,
   },
   globals: {
     Drupal: true,
@@ -17,7 +17,7 @@ module.exports = {
     Modernizr: true,
     Popper: true,
     Sortable: true,
-    CKEDITOR: true
+    CKEDITOR: true,
   },
   rules: {
     "prettier/prettier": "error",
@@ -28,8 +28,8 @@ module.exports = {
     "no-plusplus": [
       "warn",
       {
-        allowForLoopAfterthoughts: true
-      }
+        allowForLoopAfterthoughts: true,
+      },
     ],
     "no-param-reassign": ["off"],
     "no-prototype-builtins": ["off"],
@@ -38,16 +38,16 @@ module.exports = {
       {
         prefer: {
           returns: "return",
-          property: "prop"
+          property: "prop",
         },
-        requireReturn: false
-      }
+        requireReturn: false,
+      },
     ],
     "no-unused-vars": ["warn"],
     "operator-linebreak": [
       "error",
       "after",
-      { overrides: { "?": "ignore", ":": "ignore" } }
-    ]
-  }
+      { overrides: { "?": "ignore", ":": "ignore" } },
+    ],
+  },
 };
