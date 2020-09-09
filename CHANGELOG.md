@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/compare/v1.1.0...v1.1.1) (2020-09-09)
+
+
+### Build System
+
+* **deps-dev:** bump standard-version from 7.1.0 to 8.0.1 ([6c86f4e](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/6c86f4e322a86c9b1a1e0ac554c25392ad063507))
+* **npm:** disallow .files from being packaged ([406039a](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/406039aa9b7b2574114e3d05ff1ebe04fe6d678b))
+* **npm:** run security updates ([fd424fd](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/fd424fd76385284b177b15c575646a851e5a8d6d))
+
+
+### Documentation
+
+* add deprecation notice ([f5864d4](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/commit/f5864d4676f54edaeefb91c551d400a86642b8c7))
+
 ## [1.1.0](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/compare/v1.0.0...v1.1.0) (2019-12-10)
 
 

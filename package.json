@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-drupal-contrib",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An ESLint configuration to match the Drupal standard for contrib modules and themes.",
   "main": "index.js",
   "files": [
