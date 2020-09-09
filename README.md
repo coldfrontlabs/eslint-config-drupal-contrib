@@ -1,5 +1,7 @@
 # eslint-config-drupal-contrib
 
+> This project is now deprecated. Please use [eslint-plugin-drupal-contrib](https://www.npmjs.com/package/eslint-plugin-drupal-contrib) instead.
+
 [![Latest release](https://img.shields.io/github/v/release/coldfrontlabs/eslint-config-drupal-contrib?include_prereleases&style=for-the-badge)](https://github.com/coldfrontlabs/eslint-config-drupal-contrib/releases)
 [![License](https://img.shields.io/github/license/coldfrontlabs/eslint-config-drupal-contrib?style=for-the-badge)](/LICENSE)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=for-the-badge)](https://conventionalcommits.org)
